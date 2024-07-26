@@ -8,7 +8,6 @@ import Testimonial from "../../Components/Testimonial/Testimonial";
 import myContext from "../../Context/MyContext";
 
 const HomePage = () => {
-  const context = useContext(myContext)
   return (
     <Layout>
       <HeroSection />
